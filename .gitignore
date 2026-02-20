@@ -1,0 +1,48 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.sln.docstates
+
+# Rider files
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Packages
+*.nupkg
+*.snupkg
+packages/
+*.mdb
+*.pdb
+
+# Log files
+*.log
+
+# Others
+*.exe
+*.dll
+*.app
+*.appx
+*.ipa
+*.appxsym
+*.appxbundle
+*.apk
+*.msi
+*.msm
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.cache
+*~
