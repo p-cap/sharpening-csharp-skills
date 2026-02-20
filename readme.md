@@ -8,10 +8,11 @@
 - I like using jupyter notebook because it is great way to progressive learn c# but also, I can keep errors so I use it as a way to get my debugging skills better
 
 ## How-To
-- Go through a leetcode problem with jupyter notebook
 - build an app
+- Rebuild through the technical Glossary
+- Take a concept from the app and use it in the jupyter notebook
 - THIS SHOULD BE EVERYDAY!
-
+- (Optional) Go through a leetcode problem with jupyter notebook
 
 ## Using jupyter notebook in VS Code
 - `pip install jupyter`
