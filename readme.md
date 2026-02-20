@@ -7,6 +7,12 @@
 - For now, one things for sure, inside the folder, I will have a jupyter notebook
 - I like using jupyter notebook because it is great way to progressive learn c# but also, I can keep errors so I use it as a way to get my debugging skills better
 
+## How-To
+- Go through a leetcode problem with jupyter notebook
+- build an app
+- THIS SHOULD BE EVERYDAY!
+
+
 ## Using jupyter notebook in VS Code
 - `pip install jupyter`
 - `dotnet tool install -g Microsoft.dotnet-interactive`
@@ -14,5 +20,4 @@
 - Go to your VsCode:
     - click `Select Kernel`
     - select `C# kernel`
-
 
