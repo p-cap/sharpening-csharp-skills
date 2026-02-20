@@ -1,4 +1,6 @@
-### Logging my daily dose of c#
+# Stay Consistent
+
+## Logging my daily dose of c#
 - This public repo will contain insight on how to learn c# through the build-first mindset
 - The build can be an app or algorithm 
 - Each folder is labeled as a day so that I keep myseld accountable to ensure I commit to this repo on the daily
@@ -12,3 +14,5 @@
 - Go to your VsCode:
     - click `Select Kernel`
     - select `C# kernel`
+
+
