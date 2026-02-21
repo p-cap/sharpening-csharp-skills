@@ -40,9 +40,6 @@ while(true)
 }
 
 
-//Top-level statements must precede namespace and type declarations.
-// functions are considered top level statements
-// Converting null literal or possible null value to non-nullable type.
 void AddTask()
 {
     Console.Write("Enter task title: ");
@@ -51,8 +48,6 @@ void AddTask()
     Console.WriteLine("Task added.");
 }
 
-// with static funciton keyword
-// it causes the tasks variable to A static local function cannot contain a reference to 'tasks'.
 void ViewTasks()
 {
     Console.WriteLine("Tasks:");
