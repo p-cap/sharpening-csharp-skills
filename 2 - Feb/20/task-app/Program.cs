@@ -27,7 +27,7 @@ while(true)
     Console.WriteLine("3. Update Task Status");
     Console.WriteLine("4. Exit");   
 
-    string choice = Console.ReadLine();
+    string? choice = Console.ReadLine();
 
     switch (choice)
     {
@@ -53,9 +53,16 @@ while(true)
 void AddTask()
 {
     Console.Write("Enter task title: ");
-    string title = Console.ReadLine();
-    tasks.Add(new Task(title));
-    Console.WriteLine("Task added. ");
+    string? title = Console.ReadLine();
+    if (string.IsNullOrEmpty(title))
+    {
+        Console.WriteLine("Invalid Entry. Select 1 and try again");
+    }
+    else
+    {
+        tasks.Add(new Task(title));    
+        Console.WriteLine("Task added. ");
+    }
 }
 
 void ViewTasks()
