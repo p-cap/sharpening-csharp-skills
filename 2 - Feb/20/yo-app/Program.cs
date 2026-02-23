@@ -17,7 +17,7 @@ while(true)
     Console.WriteLine("4. Exit");
 
     // Converting null literal or possible null value to non-nullable type.
-    string choice = Console.ReadLine();
+    string? choice = Console.ReadLine();
 
     switch (choice)
     {
