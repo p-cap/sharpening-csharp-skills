@@ -50,3 +50,54 @@ tmp/
 # Sensitive
 .ssh
 story.md
+
+
+## [ Standard .NET Items ]
+bin/
+obj/
+out/
+.vs/
+.vscode/
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+
+## [ .NET MAUI / Xamarin Specifics ]
+# Components and artifacts
+.mtvs/
+.m_tvs/
+DeviceSpecific/
+
+## [ Android ]
+*.apk
+*.aab
+*.dex
+# Android Studio / IntelliJ files
+.gradle/
+build/
+captures/
+local.properties
+.externalNativeBuild/
+.cxx/
+
+## [ iOS / Mac Catalyst ]
+# Xcode and crash logs
+*.swp
+*.lock
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+
+## [ OS Generated Files ]
+.DS_Store
+Thumbs.db
+
+## [ User-specific / Local Secrets ]
+*.local.json
+appsettings.Development.json
+secrets.json
