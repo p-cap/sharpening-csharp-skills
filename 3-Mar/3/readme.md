@@ -38,5 +38,7 @@ https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/
 - variable that points to a function is a delegate? What does that even mean?
 - What is a delegate? And, how are we able to set the notifier with the _logger.LogToConsole?
 - If Run is calling scan, can we just encapsulate Scan?
+    - We can say that we are encapsulating the Scan function
+    - We are hiding implementation details -> When a user calls `monitor.Run()`, they don't need to know that `Run` 
 - Member can be made 'readonly' (IDE0251)...what makes the compilter suggest that the member can be made readonly?
 - CA1822: Mark members as static? Why mark it as static?
